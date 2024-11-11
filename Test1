@@ -6,4 +6,4 @@
 - `<Counter />` renders the component inside the MDX file.
 
 You would need MDX support in your setup, such as with Next.js or Gatsby, and the appropriate MDX plugins.
-
+This is just for practing
