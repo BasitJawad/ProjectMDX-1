@@ -1,0 +1,9 @@
+
+### Explanation
+
+- `import React, { useState } from 'react';` imports React and `useState` for the component.
+- The `Counter` component allows users to increase or decrease a count.
+- `<Counter />` renders the component inside the MDX file.
+
+You would need MDX support in your setup, such as with Next.js or Gatsby, and the appropriate MDX plugins.
+

@@ -1,0 +1,30 @@
+---
+title: "Sample MDX with React Component"
+---
+
+# Welcome to MDX with React
+
+This is a demonstration of how to use MDX with React components.
+
+You can write markdown as usual, like **bold text** or _italic text_.
+
+## Here’s a Sample Component
+
+Below is a simple React component within an MDX file.
+
+```jsx live
+import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div style={{ padding: '1rem', border: '1px solid #ddd', borderRadius: '4px' }}>
+      <h3>Counter: {count}</h3>
+      <button onClick={() => setCount(count + 1)}>Increase</button>
+      <button onClick={() => setCount(count - 1)}>Decrease</button>
+    </div>
+  );
+}
+
+export default Counter;
